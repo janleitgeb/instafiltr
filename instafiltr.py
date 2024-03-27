@@ -53,7 +53,7 @@ def main():
             volba = input("vyber upravu pro tvoju fotku? ('bw' (cernobily) / saturated / 'bw_lowcon' (cernobily nizky kontrast) / 'bw_highcon' (cernobily vysoky kontrast) / inverze): ")
             upraveny_obrazek = uprav_obrazek(obrazek, volba)
             upraveny_obrazek.show()
-            odpoved = input("Chcete pokračovat (ano/ne)? ").lower()
+            odpoved = input("chces pokracovat (ano/ne)? ").lower()
             if odpoved != "ano":
                 break
 
